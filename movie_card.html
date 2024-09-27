@@ -1,0 +1,121 @@
+<!DOCTYPE html5>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Película</title>
+</head>
+<body>
+  <!-- Main navbar -->
+  <div class="navbar">
+    <div class="menu">
+      <button class="menu-btn" onclick="openNav()"><i class="fa-solid fa-bars"></i> Menu</button>
+    </div>
+    <!-- Logo -->
+    <div class="logo">
+      <img src="./img/cinema.png" alt="Logo">
+    </div>
+    <!-- Search bar -->
+    <div class="search">
+      <input type="text" placeholder="Buscar películas">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <!-- Enter Button -->
+    <div class="enter">
+      <button>Entrar</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="compra_entradas">
+      <label for="fecha">Compra de entrada</label>
+      <select name="fecha" id="fecha">
+        <option value="">Elegir fecha</option>
+        <option value="">26 de Septiembre de 2024</option>
+        <option value="">27 de Septiembre de 2024</option>
+        <option value="">28 de Septiembre de 2024</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="horarios_salas">
+    <div class="sala">
+      <label for="sala1">Sala 1</label>
+      <div class="horarios">
+        <input type="text" id="sala1-hora1" value="18:00">
+        <input type="text" id="sala1-hora2" value="19:45">
+      </div>
+    </div>
+
+    <div class="sala">
+      <label for="sala2">Sala 2</label>
+      <div class="horarios">
+        <input type="text" id="sala2-hora1" value="17:45">
+        <input type="text" id="sala2-hora2" value="19:00">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="main_movie_content">
+    <div class="cartel">
+      <h3>Título de la Pelicula</h3>
+      <img src="./img/beetlejuice.jpg" alt="Cartel de la película">
+    </div>
+    <div class="sinopsis">
+      <h3>Sinopsis</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut a modi facere, culpa beatae placeat omnis cumque ipsum. Cumque distinctio quas ad perspiciatis quidem, illo nam cupiditate accusantium neque hic.</p>
+    </div>
+    <div class="ficha_tecnica">
+      <h3>Ficha Técnica</h3>
+      <ul>
+        <li><strong>Género:</strong> Terror/Comedia</li>
+        <li><strong>Duración:</strong> 104 min</li>
+        <li><strong>Clasificación:</strong> PG-13</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Películas</h4>
+          <ul>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Eventos</h4>
+          <ul>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Sobre nosotros</h4>
+          <ul>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Síguenos en</h4>
+          <ul>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+            <li><a href="#">Enlace</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <script src="https://kit.fontawesome.com/0f075be701.js" crossorigin="anonymous"></script>
+  </footer>
+</body>
+</html>
